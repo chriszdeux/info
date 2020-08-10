@@ -1,0 +1,18 @@
+git remote add origin (direccion de github) --para hacer el origen
+
+git remote -v	 ->checar las opciones que tenemos 
+
+git push origin master	 -> para enviar nuestro proyecto a nuestro repositorio
+
+git pull origin  master -> traerte el master de nuestro repositorio a nuestro proyecto
+
+git pull origin master --allow-unrelated-histories	-> para poder hacer el merge del origen con el repositorio
+ -----------------------------------------------------------
+
+-----------------------------------------------------------
+llaves publicas y privadas en Github
+
+git config -l		>sirve para entrar a la configuracion
+git config --global user.name "tunombre"		>cambiar el nombre de usuario
+git config --global user.mail "tuemail"			>cambiar tu correo
+
