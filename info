@@ -16,3 +16,8 @@ coding = float(input("get new code"))
 .log{
     background: greensky;
 }
+
+nuevo rama creada llamada cabecera
+la cual me permite crear una nueva rama 
+para poder trabajar con los archivos de manera 
+separada a la del master
