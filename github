@@ -16,3 +16,11 @@ git config -l		>sirve para entrar a la configuracion
 git config --global user.name "tunombre"		>cambiar el nombre de usuario
 git config --global user.mail "tuemail"			>cambiar tu correo
 
+ssh-keygen -t rsa -b 4096 -C "email_ingresaste_github"	>para generar tu llave publica\privada
+eval $(ssh-agent -s)		>es para checar que el servidor de llaves esta corriendo
+
+ssh-add ~ruta_donde_esta_tu_llave /id_rsa
+
+git remote set-url origin direccion_de_url_github
+
+
