@@ -17,4 +17,11 @@ coding = float(input("get new code"))
     background: greensky;
 }
 
+<<<<<<< HEAD
 version 2.0
+=======
+nuevo rama creada llamada cabecera
+la cual me permite crear una nueva rama 
+para poder trabajar con los archivos de manera 
+separada a la del master
+>>>>>>> cabecera
