@@ -23,4 +23,16 @@ ssh-add ~ruta_donde_esta_tu_llave /id_rsa
 
 git remote set-url origin direccion_de_url_github
 
+-------------------------------------------------------
 
+git log --all --graph --decorate --oneline      > Visualiza tus commits de manera sencilla
+
+alias nombre = "comandos"       >poner tags a comandos
+
+git tag -a nombre_del_tag -m "mensaje" #referencia
+
+git tag
+
+git show-ref --tags         >muestra los tags asociados a dicha referencia 
+
+gir push origin --tags          >enviar los tags al repositorio
