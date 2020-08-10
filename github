@@ -35,4 +35,4 @@ git tag
 
 git show-ref --tags         >muestra los tags asociados a dicha referencia 
 
-gir push origin --tags          >enviar los tags al repositorio
+git push origin --tags          >enviar los tags al repositorio
