@@ -16,3 +16,5 @@ coding = float(input("get new code"))
 .log{
     background: greensky;
 }
+
+version 2.0
