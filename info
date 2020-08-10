@@ -10,3 +10,5 @@ void function()
 
     cout<<"result = "<<num+num2;
 }
+
+coding = float(input("get new code"))
