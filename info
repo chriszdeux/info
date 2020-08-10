@@ -2,3 +2,11 @@ My name is Christian Meza
 I am 30 years old
 
 hoy estudio web y espero pronto lograr mis propios proyectos
+
+void function()
+{
+    float num,num2;
+    cin>>num>>num2
+
+    cout<<"result = "<<num+num2;
+}
